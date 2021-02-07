@@ -1,2 +1,3 @@
-# piano-emulator
-make piano for poor student
+# bplay-casino-fe
+
+Practice responsive mobile screen
