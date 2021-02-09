@@ -1,0 +1,69 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.piano {
+  background-image: url('./../assets/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-top: 58vh;
+  display: flex;
+  align-content: flex-end;
+}
+.frame-5 {
+  position: relative;
+  display: flex;
+  height: 300px;
+  width: calc(100% / 3);
+}
+
+.frame-5 > div {
+  background-color: #fff;
+  border: 2px solid rgb(53, 1, 1);
+  flex-grow: 1;
+
+  border-radius: 5px;
+  margin-left: 1px;
+}
+.frame-5 > div:hover {
+  background-color: rgb(244, 244, 255);
+
+  /* border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px; */
+  animation-duration: 0.25s;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.black-key-1 {
+  position: absolute;
+  background-color: black;
+  width: calc(100% / 10);
+  left: 10%;
+}
+.black-key-2 {
+  position: absolute;
+  background-color: black;
+  width: calc(100% / 10);
+  left: 24%;
+}
+.black-key-3 {
+  left: 38%;
+}
+.black-key-3 {
+  left: 52%;
+}
+.black-key-4 {
+  left: 66%;
+}
+.black-key-5 {
+  left: 80%;
+}
+
+[class*='black-key'] {
+  position: absolute;
+  background-color: black !important;
+  width: calc(100% / 10);
+  height: 180px;
+}
+[class*='black-key']:hover {
+  background-color: rgb(6, 1, 36) !important;
+}
