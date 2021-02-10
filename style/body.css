@@ -30,7 +30,7 @@ body {
 
   /* border-top-left-radius: 10px;
   border-bottom-left-radius: 10px; */
-  animation-duration: 0.25s;
+  transition-duration: 0.2s;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 .black-key-1 {
@@ -66,4 +66,12 @@ body {
 }
 [class*='black-key']:hover {
   background-color: rgb(6, 1, 36) !important;
+}
+.active{
+  background-color: rgb(244, 244, 255);
+
+  /* border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px; */
+  transition-duration: 0.2s;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
