@@ -1,2 +1,0 @@
-# cover piano
-Toi & Tuong
